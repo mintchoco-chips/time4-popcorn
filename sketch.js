@@ -1,5 +1,5 @@
 let snake = [];
-let headImg, popcornImg;
+let headImg, Snake_game_kernelImg;
 let popcorn;
 let gridSize = 20;
 let xdir = 0, ydir = 0;
@@ -7,8 +7,8 @@ let score = 0;
 let gameOver = false;
 
 function preload() {
-  headImg = loadImage("snakehead.png");   // your cartoon snake head
-  popcornImg = loadImage("popcorn.png");  // your popcorn image
+  headImg = loadImage("head.png");   // your cartoon snake head
+  popcornImg = loadImage("Snake_game_kernel.png");  // your popcorn image
 }
 
 function setup() {
