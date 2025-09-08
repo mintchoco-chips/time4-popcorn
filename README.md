@@ -1,3 +1,3 @@
-# Hello-World
-learning github
-currently flying through this tutorial... cool. 
+# Omar
+catch the popcorn, do'nt hit the walls, don't eat yourself, you are not popcorn
+have fun!
