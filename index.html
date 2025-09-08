@@ -14,7 +14,7 @@
       let score = 0;
       let gameOver = false;
       let headImg, popcornImg;
-      
+
       function preload() {
           headImg = loadImage("head.png");
           popcornImg = loadImage("Snake_game_kernel.png"); 
@@ -64,7 +64,7 @@
         }
 
         // Draw popcorn
-        image(popcornImg.x * gridSize, popcorn.y * gridSize, gridSize, gridSize);
+        image(popcornImg, popcorn.x * gridSize, popcorn.y * gridSize, gridSize, gridSize);
 
         // Draw snake
         for (let i = 0; i < snake.length; i++) {
